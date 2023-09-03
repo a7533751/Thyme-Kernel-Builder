@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Flash_KernelSU_Proton",
+      "name": "Zf6_KernelSU_Proton",
       "repo": "https://github.com/kdrag0n/proton_zf6",
       "branch": "master",
       "device": "zenfone6",
@@ -39,7 +39,7 @@
     "AnyKernel3": {
       "use": false,
       "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
+      "repo": "https://github.com/osm0sis/AnyKernel3/",
       "branch": "master"
     }
   }
