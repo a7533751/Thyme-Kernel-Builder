@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release",
-      "repo": "https://github.com/kdrag0n/proton_zf6",
+      "repo": "https://github.com/a7533751/proton_zf6",
       "branch": "master",
       "device": "zenfone6",
       "defconfig": "kirin"
@@ -46,7 +46,7 @@
   {
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release",
-      "repo": "https://github.com/kdrag0n/proton_zf6",
+      "repo": "https://github.com/a7533751/proton_zf6",
       "branch": "master",
       "device": "zenfone6",
       "defconfig": "kirin"
@@ -90,7 +90,7 @@
   {
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release",
-      "repo": "https://github.com/kdrag0n/proton_zf6",
+      "repo": "https://github.com/a7533751/proton_zf6",
       "branch": "master",
       "device": "zenfone6",
       "defconfig": "kirin"
