@@ -40,7 +40,7 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "53ce3e40731390dbd9636df39f08d5ff54bd703a"
+      "branch": "master"
     }
   },
   {
@@ -84,7 +84,7 @@
       "use": false,
       "release": true,
       "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "53ce3e40731390dbd9636df39f08d5ff54bd703a"
+      "branch": "master"
     }
   },
   {
@@ -128,7 +128,7 @@
       "use": true,
       "release": false,
       "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "53ce3e40731390dbd9636df39f08d5ff54bd703a"
+      "branch": "master"
     }
   }
 ]
