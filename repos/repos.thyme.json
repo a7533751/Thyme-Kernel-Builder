@@ -14,7 +14,17 @@
         "branch": "20200711",
         "name": "proton-clang",
         "binPath": ["bin"]
-      }
+      },
+  {
+    "url": "https://github.com/kdrag0n/arm-eabi-gcc/archive/refs/tags/9.1.0.zip",
+    "name": "gcc32",
+    "binPath": ["bin"]
+  },
+  {
+    "url": "https://github.com/kdrag0n/aarch64-elf-gcc/archive/refs/tags/9.1.0.zip",
+    "name": "gcc",
+    "binPath": ["bin"]
+  }
     ],
     "ccache": true,
     "params": {
@@ -64,7 +74,17 @@
         "branch": "11",
         "name": "clang",
         "binPath": ["bin"]
-      }
+      },
+  {
+    "url": "https://github.com/kdrag0n/arm-eabi-gcc/archive/refs/tags/9.1.0.zip",
+    "name": "gcc32",
+    "binPath": ["bin"]
+  },
+  {
+    "url": "https://github.com/kdrag0n/aarch64-elf-gcc/archive/refs/tags/9.1.0.zip",
+    "name": "gcc",
+    "binPath": ["bin"]
+  }
     ],
     "ccache": true,
     "params": {
