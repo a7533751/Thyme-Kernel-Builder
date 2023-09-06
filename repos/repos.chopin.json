@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Chopin_KernelSU_Proton",
-      "repo": "https://github.com/AOSP-13-Mediatek/kernel_xiaomi_chopin",
-      "branch": "r",
-      "device": "chopin",
-      "defconfig": "chopin_user_defconfig"
+      "name": "Zf6_KernelSU_Proton",
+      "repo": "https://github.com/a7533751/proton_zf6",
+      "branch": "v2",
+      "device": "zenfone6",
+      "defconfig": "vendor/kirin_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
