@@ -5,7 +5,7 @@
       "repo": "https://github.com/a7533751/proton_zf6",
       "branch": "v2",
       "device": "zenfone6",
-      "defconfig": "vendor/kirin_defconfig"
+      "defconfig": "kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -60,7 +60,7 @@
       "repo": "https://github.com/a7533751/proton_zf6",
       "branch": "v2",
       "device": "zenfone6",
-      "defconfig": "vendor/kirin_defconfig"
+      "defconfig": "kirin_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
