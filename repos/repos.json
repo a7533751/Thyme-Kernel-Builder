@@ -130,7 +130,7 @@
       "repo": "https://github.com/osm0sis/AnyKernel3/",
       "branch": "master"
     }
-  },,
+  },
   {
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release_clang-17",
