@@ -10,8 +10,8 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "repo": "https://gitlab.com/LeCmnGend/proton-clang",
+        "branch": "clang-15",
         "name": "proton-clang",
         "binPath": ["bin"]
       }
@@ -98,8 +98,8 @@
     "withKernelSU": false,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "repo": "https://gitlab.com/LeCmnGend/proton-clang",
+        "branch": "clang-15",
         "name": "proton-clang",
         "binPath": ["bin"]
       }
