@@ -13,19 +13,19 @@
         "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "20200307",
         "name": "proton_clang-10.0.0-20191002",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       },
       {
         "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
         "branch": "9.x",
         "name": "proton-gcc-9.2.0",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       },
       {
         "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
         "branch": "9.x",
         "name": "proton-gcc32-9.2.0",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       }
     ],
     "ccache": true,
