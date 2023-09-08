@@ -11,7 +11,7 @@
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "20200711",
+        "branch": "20200502",
         "name": "proton-clang",
         "binPath": ["bin"]
       },
