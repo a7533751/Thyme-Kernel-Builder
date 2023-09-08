@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Zf6_NoKernelSU_Proton",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "002v2",
+      "branch": "v2",
       "device": "zenfone6",
       "defconfig": "kirin_defconfig"
     },
@@ -11,7 +11,7 @@
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "20200307",
+        "branch": "20200502",
         "name": "proton-clang",
         "binPath": ["bin"]
       },
