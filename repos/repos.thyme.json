@@ -3,28 +3,28 @@
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "v2",
+      "branch": "002v2",
       "device": "zenfone6",
-      "defconfig": "kirin_defconfig"
+      "defconfig": "vendor/kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "20200307",
+        "branch": "20200502",
         "name": "proton-clang",
         "binPath": ["bin"]
       },
       {
-        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
-        "branch": "9.x",
-        "name": "proton-gcc-9.2.0",
+        "repo": "https://github.com/arter97/arm64-gcc",
+        "branch": "master",
+        "name": "arter97",
         "binPath": ["bin"]
       },
       {
-        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
-        "branch": "9.x",
-        "name": "proton-gcc32-9.2.0",
+        "repo": "https://github.com/arter97/arm32-gcc",
+        "branch": "master",
+        "name": "arter97-32",
         "binPath": ["bin"]
       }
     ],
