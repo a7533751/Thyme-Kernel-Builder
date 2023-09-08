@@ -12,7 +12,7 @@
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "20200307",
-        "name": "proton-clang",
+        "name": "proton_clang-10.0.0-20191002",
         "binPath": ["./bin"]
       },
       {
