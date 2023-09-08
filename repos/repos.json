@@ -35,6 +35,7 @@
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "proton-clang/bin/aarch64-linux-gnu-",
         "LD": "proton-clang/bin/ld.lld",
         "AR": "proton-clang/bin/llvm-ar",
         "NM": "proton-clang/bin/llvm-nm",
@@ -91,6 +92,7 @@
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "proton-clang/bin/aarch64-linux-gnu-",
         "LD": "proton-clang/bin/ld.lld",
         "AR": "proton-clang/bin/llvm-ar",
         "NM": "proton-clang/bin/llvm-nm",
@@ -147,6 +149,7 @@
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "proton-clang/bin/aarch64-linux-gnu-",
         "LD": "proton-clang/bin/ld.lld",
         "AR": "proton-clang/bin/llvm-ar",
         "NM": "proton-clang/bin/llvm-nm",
@@ -203,6 +206,7 @@
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "proton-clang/bin/aarch64-linux-gnu-",
         "LD": "proton-clang/bin/ld.lld",
         "AR": "proton-clang/bin/llvm-ar",
         "NM": "proton-clang/bin/llvm-nm",
