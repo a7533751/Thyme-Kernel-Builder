@@ -67,8 +67,8 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/HANA-CI-Build-Project/proton-clang",
-        "branch": "proton-clang-11",
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "20200307",
         "name": "proton-clang",
         "binPath": ["bin"]
       },
