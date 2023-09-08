@@ -14,6 +14,18 @@
         "branch": "clang-14",
         "name": "proton-clang",
         "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc-9.2.0",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc32-9.2.0",
+        "binPath": ["bin"]
       }
     ],
     "ccache": false,
@@ -57,6 +69,18 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-15",
         "name": "proton-clang",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc-9.2.0",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc32-9.2.0",
         "binPath": ["bin"]
       }
     ],
@@ -102,6 +126,18 @@
         "branch": "clang-16",
         "name": "proton-clang",
         "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc-9.2.0",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc32-9.2.0",
+        "binPath": ["bin"]
       }
     ],
     "ccache": true,
@@ -145,6 +181,18 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-17",
         "name": "proton-clang",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc-9.2.0",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc32-9.2.0",
         "binPath": ["bin"]
       }
     ],
