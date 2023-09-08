@@ -13,7 +13,7 @@
         "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "20200502",
         "name": "proton-clang",
-        "binPath": ["bin"]
+        "binPath": ["./bin"]
       },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
