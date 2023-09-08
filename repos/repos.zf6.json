@@ -67,10 +67,9 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/HANA-CI-Build-Project/proton-clang",
-        "branch": "master",
-        "name": "proton-clang",
-        "binPath": ["bin"]
+    "url": "https://github.com/kdrag0n/proton-clang-build/releases/download/20200117/proton_clang-11.0.0-20200117.tar.zst",
+    "name": "clang",
+    "binPath": ["./bin"]
       },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
