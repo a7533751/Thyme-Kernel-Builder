@@ -13,7 +13,7 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-14",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
@@ -69,7 +69,7 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-15",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
@@ -125,7 +125,7 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-16",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
@@ -181,7 +181,7 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-17",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
