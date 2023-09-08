@@ -3,9 +3,9 @@
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release_clang-14",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "10",
+      "branch": "002",
       "device": "zenfone6",
-      "defconfig": "kirin_defconfig"
+      "defconfig": "vendor/kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -47,9 +47,9 @@
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release_clang-15",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "10",
+      "branch": "002",
       "device": "zenfone6",
-      "defconfig": "kirin_defconfig"
+      "defconfig": "vendor/kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -91,9 +91,9 @@
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release_clang-16",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "10",
+      "branch": "002",
       "device": "zenfone6",
-      "defconfig": "kirin_defconfig"
+      "defconfig": "vendor/kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -135,9 +135,9 @@
     "kernelSource": {
       "name": "Zf6-KernelSU-Proton-release_clang-17",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "10",
+      "branch": "002",
       "device": "zenfone6",
-      "defconfig": "kirin_defconfig"
+      "defconfig": "vendor/kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
