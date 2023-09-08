@@ -11,20 +11,22 @@
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "20200711",
-        "name": "proton-clang",
-        "binPath": ["bin"]
+        "branch": "20200307",
+        "name": "proton_clang-10.0.0-20191002",
+        "binPath": ["./bin"]
       },
-  {
-    "url": "https://github.com/kdrag0n/arm-eabi-gcc/archive/refs/tags/9.1.0.zip",
-    "name": "gcc32",
-    "binPath": ["bin"]
-  },
-  {
-    "url": "https://github.com/kdrag0n/aarch64-elf-gcc/archive/refs/tags/9.1.0.zip",
-    "name": "gcc",
-    "binPath": ["bin"]
-  }
+      {
+        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc-9.2.0",
+        "binPath": ["./bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc32-9.2.0",
+        "binPath": ["./bin"]
+      }
     ],
     "ccache": true,
     "params": {
@@ -45,57 +47,6 @@
         "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "proton-clang/bin/llvm-ar",
         "LLVM_DIS": "proton-clang/bin/llvm-dis"
-      }
-    },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
-    }
-  },
-  {
-    "kernelSource": {
-      "name": "Zf6-Google",
-      "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "v2",
-      "device": "zenfone6",
-      "defconfig": "kirin_defconfig"
-    },
-    "withKernelSU": false,
-    "toolchains": [
-      {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
-        "name": "gas",
-        "binPath": []
-      },
-      {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang",
-        "binPath": ["bin"]
-      },
-  {
-    "url": "https://github.com/kdrag0n/arm-eabi-gcc/archive/refs/tags/9.1.0.zip",
-    "name": "gcc32",
-    "binPath": ["bin"]
-  },
-  {
-    "url": "https://github.com/kdrag0n/aarch64-elf-gcc/archive/refs/tags/9.1.0.zip",
-    "name": "gcc",
-    "binPath": ["bin"]
-  }
-    ],
-    "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-"
       }
     },
     "AnyKernel3": {
