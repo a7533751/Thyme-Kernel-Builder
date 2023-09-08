@@ -16,15 +16,15 @@
         "binPath": ["./bin"]
       },
       {
-        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
-        "branch": "9.x",
-        "name": "proton-gcc-9.2.0",
+        "repo": "https://github.com/arter97/arm64-gcc",
+        "branch": "master",
+        "name": "arter97",
         "binPath": ["bin"]
       },
       {
-        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
-        "branch": "9.x",
-        "name": "proton-gcc32-9.2.0",
+        "repo": "https://github.com/arter97/arm32-gcc",
+        "branch": "master",
+        "name": "arter97-32",
         "binPath": ["bin"]
       }
     ],
