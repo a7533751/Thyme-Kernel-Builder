@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Zf6_NoKernelSU_Proton",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "v2",
+      "branch": "002v2",
       "device": "zenfone6",
       "defconfig": "kirin_defconfig"
     },
