@@ -13,7 +13,19 @@
         "repo": "https://gitlab.com/LeCmnGend/proton-clang",
         "branch": "clang-13",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/aarch64-elf-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc-9.2.0",
+        "binPath": ["bin"]
+      },
+      {
+        "repo": "https://github.com/kdrag0n/arm-eabi-gcc",
+        "branch": "9.x",
+        "name": "proton-gcc32-9.2.0",
+        "binPath": ["bin"]
       }
     ],
     "ccache": true,
