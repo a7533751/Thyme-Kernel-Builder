@@ -68,7 +68,7 @@
     "toolchains": [
       {
     "url": "https://vtus02.laogewen233.tk/proton_clang-11.0.0-20200117.tar.gz",
-    "name": "clang",
+    "name": "proton_clang-11.0.0-20200117",
     "binPath": ["./bin"]
       },
       {
@@ -87,22 +87,22 @@
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
+      "CC": "proton_clang-11.0.0-20200117/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "proton-clang/bin/aarch64-linux-gnu-",
-        "LD": "proton-clang/bin/ld.lld",
-        "AR": "proton-clang/bin/llvm-ar",
-        "NM": "proton-clang/bin/llvm-nm",
-        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
-        "OBJDUMP": "proton-clang/bin/llvm-objdump",
-        "READELF": "proton-clang/bin/llvm-readelf",
-        "OBJSIZE": "proton-clang/bin/llvm-size",
-        "STRIP": "proton-clang/bin/llvm-strip",
-        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+        "CROSS_COMPILE": "proton_clang-11.0.0-20200117/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "proton_clang-11.0.0-20200117/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "proton_clang-11.0.0-20200117/bin/aarch64-linux-gnu-",
+        "LD": "proton_clang-11.0.0-20200117/bin/ld.lld",
+        "AR": "proton_clang-11.0.0-20200117/bin/llvm-ar",
+        "NM": "proton_clang-11.0.0-20200117/bin/llvm-nm",
+        "OBJCOPY": "proton_clang-11.0.0-20200117/bin/llvm-objcopy",
+        "OBJDUMP": "proton_clang-11.0.0-20200117/bin/llvm-objdump",
+        "READELF": "proton_clang-11.0.0-20200117/bin/llvm-readelf",
+        "OBJSIZE": "proton_clang-11.0.0-20200117/bin/llvm-size",
+        "STRIP": "proton_clang-11.0.0-20200117/bin/llvm-strip",
+        "LDGOLD": "proton_clang-11.0.0-20200117/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "proton_clang-11.0.0-20200117/bin/llvm-ar",
+        "LLVM_DIS": "proton_clang-11.0.0-20200117/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
