@@ -219,7 +219,7 @@ jobs:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: Image-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image
+          path: ${{ github.workspace }}/${{ matrix.repos.kernelSource.name }}/arch/${{ env.arch }}/boot/Image
           if-no-files-found: ignore
           retention-days: 7
 
@@ -229,7 +229,7 @@ jobs:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: Image.gz-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz
+          path: ${{ github.workspace }}/${{ matrix.repos.kernelSource.name }}/arch/${{ env.arch }}/boot/Image.gz
           if-no-files-found: ignore
           retention-days: 7
 
@@ -239,7 +239,7 @@ jobs:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: dx-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/ProtonKernel-zenfone6.zip
+          path: ${{ github.workspace }}/${{ matrix.repos.kernelSource.name }}/ProtonKernel-zenfone6.zip
           if-no-files-found: ignore
           retention-days: 7
 
@@ -249,7 +249,7 @@ jobs:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: dtb-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtb
+          path: ${{ github.workspace }}/${{ matrix.repos.kernelSource.name }}/arch/${{ env.arch }}/boot/dtb
           if-no-files-found: ignore
           retention-days: 7
 
@@ -259,7 +259,7 @@ jobs:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: dtbo.img-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo.img
+          path: ${{ github.workspace }}/${{ matrix.repos.kernelSource.name }}/arch/${{ env.arch }}/boot/dtbo.img
           if-no-files-found: ignore
           retention-days: 7
 
@@ -271,11 +271,11 @@ jobs:
         run: |
           ls -al
 
-          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image" ]; then
-            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image ./AnyKernel3/
+          if [ -e "${{ github.workspace }}/arch/${{ env.arch }}/boot/Image" ]; then
+            cp -f ${{ github.workspace }}/arch/${{ env.arch }}/boot/Image ./AnyKernel3/
           fi
-          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz" ]; then
-            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz ./AnyKernel3/
+          if [ -e "${{ github.workspace }}/arch/${{ env.arch }}/boot/Image.gz" ]; then
+            cp -f ${{ env.arch }}/${{ matrix.repos.kernelSource.name }}/arch/${{ env.arch }}/boot/Image.gz ./AnyKernel3/
           fi
           if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo" ]; then
             cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo ./AnyKernel3/
