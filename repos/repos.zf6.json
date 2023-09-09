@@ -9,12 +9,11 @@
     },
     "withKernelSU": true,
     "toolchains": [
-      {
-        "repo": "https://github.com/a7533751/proton-clang-f",
-        "branch": "proton-clang-10",
-        "name": "proton-clang",
-        "binPath": ["bin"]
-      },
+  {
+    "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/llvm-r383902b.tar.gz",
+    "name": "clang",
+    "binPath": ["./bin"]
+  },
       {
         "repo": "https://github.com/arter97/arm64-gcc",
         "branch": "master",
@@ -32,6 +31,8 @@
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
+      "LLVM_IAS": "1",
+      "LLVM": "1",
       "externalCommand": {
         "CROSS_COMPILE": "arter97/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arter97-32/bin/arm-linux-gnueabi-",
