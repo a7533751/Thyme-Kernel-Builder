@@ -1,17 +1,17 @@
 [
   {
     "kernelSource": {
-      "name": "Zf6_KernelSU_Proton_clang-13",
+      "name": "Zf6-KernelSU-Proton",
       "repo": "https://github.com/a7533751/proton_zf6",
-      "branch": "002",
+      "branch": "002v2",
       "device": "zenfone6",
-      "defconfig": "vendor/kirin_defconfig"
+      "defconfig": "kirin_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://gitlab.com/LeCmnGend/proton-clang",
-        "branch": "clang-13",
+        "repo": "https://github.com/a7533751/proton-clang-f",
+        "branch": "proton-clang-10",
         "name": "proton-clang",
         "binPath": ["bin"]
       },
@@ -33,9 +33,9 @@
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "arter97/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arter97-32/bin/arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "arter97/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "proton-clang/bin/aarch64-linux-gnu-",
         "LD": "proton-clang/bin/ld.lld",
         "AR": "proton-clang/bin/llvm-ar",
         "NM": "proton-clang/bin/llvm-nm",
@@ -50,10 +50,10 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
-      "release": false,
-      "repo": "https://github.com/osm0sis/AnyKernel3/",
-      "branch": "master"
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/easterNday/AnyKernel3/",
+      "branch": "thyme"
     }
   }
 ]
