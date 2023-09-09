@@ -31,7 +31,7 @@
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "proton-clang/proton_clang-11.0.0-20200117/bin/clang",
+      "CC": "proton-clang/bin/clang",
       "LLVM_IAS": "1",
       "LLVM": "1",
       "externalCommand": {
