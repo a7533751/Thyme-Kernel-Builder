@@ -11,7 +11,7 @@
     "toolchains": [
   {
     "url": "https://vtus02.laogewen233.tk/proton_clang-11.0.0-20200117.tar.gz",
-    "name": "clang",
+    "name": "proton_clang-11.0.0-20200117",
     "binPath": ["./bin"]
   },
       {
@@ -30,7 +30,7 @@
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
+      "CC": "proton_clang-11.0.0-20200117/bin/clang",
       "LLVM_IAS": "1",
       "LLVM": "1",
       "externalCommand": {
