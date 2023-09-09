@@ -10,8 +10,8 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "20200502",
+        "repo": "https://github.com/a7533751/proton-clang-f",
+        "branch": "master",
         "name": "proton-clang",
         "binPath": ["bin"]
       },
