@@ -10,7 +10,7 @@
     "withKernelSU": true,
     "toolchains": [
   {
-    "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/llvm-r383902b.tar.gz",
+    "url": "https://vtus02.laogewen233.tk/proton_clang-11.0.0-20200117.tar.gz",
     "name": "clang",
     "binPath": ["./bin"]
   },
